@@ -248,6 +248,7 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd_default.conf \
     hostapd \
+    libwpa_client \
     wcnss_service \
     wificond \
     wifilogd \
@@ -260,11 +261,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     WCNSS_qcom_cfg.ini
-
-PRODUCT_PACKAGES += \
-    libqsap_sdk \
-    libQWiFiSoftApCfg \
-    libwpa_client
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
