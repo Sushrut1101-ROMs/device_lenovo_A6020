@@ -134,6 +134,11 @@ ro.com.google.clientidbase.gmm=android-lenovo
 ro.com.google.clientidbase.ms=android-lenovo
 ro.com.google.clientidbase.yt=android-lenovo
 
+# Qualcomm® aptX™
+persist.bt.enableAptXHD=true
+persist.service.btui.use_aptx=1
+persistent.bt.a2dp_offload_cap=sbc-aptx-aptXHD
+
 # Radio
 persist.data.netmgrd.qos.enable=true
 persist.data.qmi.adb_logmask=0
