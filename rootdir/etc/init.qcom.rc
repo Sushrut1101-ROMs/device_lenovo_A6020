@@ -249,7 +249,7 @@ service wcnss-service /system/vendor/bin/wcnss_service
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class late_start
     user camera
-    group camera system inet input graphics
+    group camera system inet input graphics gps
     writepid /dev/cpuset/camera-daemon/tasks
 
 on property:init.svc.media=restarting
