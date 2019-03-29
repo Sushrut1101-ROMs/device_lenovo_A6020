@@ -38,3 +38,12 @@ PRODUCT_MODEL := Vibe K5
 PRODUCT_MANUFACTURER := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
+
+# Use Gapps
+# Set this flag in build script
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+endif
