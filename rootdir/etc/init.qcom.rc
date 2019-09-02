@@ -491,3 +491,7 @@ on property:sys.boot_completed=1
 
     setprop ro.min_freq_0 200000
     setprop ro.min_freq_4 200000
+
+    # Disable sleep_disabled in LPM
+    write /sys/module/lpm_levels/parameters/sleep_disabled 0
+
