@@ -50,7 +50,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
-# Dirac
+# Dira
 PRODUCT_PACKAGES += \
     Dirac
 
@@ -201,9 +201,6 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libbson \
     Snap
-
-PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/configs/external_camera_config.xml:system/etc/external_camera_config.xml
 
 # GPS
 PRODUCT_PACKAGES += \
