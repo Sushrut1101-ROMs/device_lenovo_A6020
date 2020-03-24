@@ -21,17 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Inherit from A6020 device
 $(call inherit-product, device/lenovo/A6020/device.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product-if-exists, vendor/arrow/config/common.mk)
+# Inherit some common AEX stuff
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A6020
-PRODUCT_NAME := arrow_A6020
+PRODUCT_NAME := aosp_A6020
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Vibe K5
 PRODUCT_MANUFACTURER := Lenovo
