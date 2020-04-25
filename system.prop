@@ -105,6 +105,9 @@ media.stagefright.less-secure=true
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=1
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Qualcomm
 persist.data.qmi.adb_logmask=0
 ro.qualcomm.cabl=2
