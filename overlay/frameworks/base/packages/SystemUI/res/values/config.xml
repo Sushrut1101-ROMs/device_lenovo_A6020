@@ -53,4 +53,10 @@
     <!-- Allow devices to enforce the H265 encoder for screen recordings -->
     <bool name="config_useNewScreenRecEncoder">false</bool>
 
+    <!-- LockScreenCharger current sysfs path -->
+    <string name="config_currentPath">/sys/class/power_supply/battery/current_now</string>
+
+    <!-- LockScreenCharger voltage sysfs path -->
+    <string name="config_voltagePath">/sys/class/power_supply/battery/voltage_now</string>
+
 </resources>
