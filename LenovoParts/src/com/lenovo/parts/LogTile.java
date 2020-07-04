@@ -124,6 +124,9 @@ public class LogTile extends TileService {
                 Toast.makeText(LogTile.this, R.string.cannot_get_su,
                         Toast.LENGTH_LONG).show();
                 return;
+            } else {
+                Toast.makeText(LogTile.this, R.string.log_saved,
+                        Toast.LENGTH_SHORT).show();
             }
         }
     }
