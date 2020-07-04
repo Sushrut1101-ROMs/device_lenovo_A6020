@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        android:key="usb"
-        android:title="@string/usb_fastcharge_title">
+        android:key="vibration"
+        android:title="@string/vibration_title">
 
-        <com.lenovo.parts.preferences.SecureSettingSwitchPreference
-            android:defaultValue="false"
-            android:key="usbfastcharge"
-            android:summary="@string/fastcharge_summary"
-            android:title="@string/fastcharge_title"
-            android:icon="@drawable/ic_usb" />
-
+        <com.lenovo.parts.preferences.VibrationSeekBarPreference
+            android:defaultValue="80"
+            android:key="vibration_strength"
+            android:max="100"
+            android:title="@string/vibration_strength_title"
+            app:min="1"
+            app:units="%" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -30,6 +30,24 @@
             android:icon="@drawable/ic_dt2w" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="display"
+        android:title="@string/display_title">
+
+        <Preference
+            android:key="device_kcal"
+            android:persistent="false"
+            android:summary="@string/device_kcal_suammary"
+            android:title="@string/device_kcal_title"
+            android:icon="@drawable/ic_color">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.lenovo.parts.kcal.KCalSettingsActivity"
+                android:targetPackage="com.lenovo.parts.kcal" />
+        </Preference>
+        
+    </PreferenceCategory>
+    
     <PreferenceCategory
         android:key="audio"
         android:title="@string/audio_title">
@@ -79,34 +97,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="vibration"
-        android:title="@string/vibration_title">
+        android:key="usb"
+        android:title="@string/usb_fastcharge_title">
 
-        <com.lenovo.parts.preferences.VibrationSeekBarPreference
-            android:defaultValue="80"
-            android:key="vibration_strength"
-            android:max="100"
-            android:title="@string/vibration_strength_title"
-            app:min="1"
-            app:units="%" />
-    </PreferenceCategory>
+        <com.lenovo.parts.preferences.SecureSettingSwitchPreference
+            android:defaultValue="false"
+            android:key="usbfastcharge"
+            android:summary="@string/fastcharge_summary"
+            android:title="@string/fastcharge_title"
+            android:icon="@drawable/ic_usb" />
 
-    <PreferenceCategory
-        android:key="display"
-        android:title="@string/display_title">
-
-        <Preference
-            android:key="device_kcal"
-            android:persistent="false"
-            android:summary="@string/device_kcal_suammary"
-            android:title="@string/device_kcal_title"
-            android:icon="@drawable/ic_color">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.lenovo.parts.kcal.KCalSettingsActivity"
-                android:targetPackage="com.lenovo.parts.kcal" />
-        </Preference>
-        
     </PreferenceCategory>
 
 </PreferenceScreen>
