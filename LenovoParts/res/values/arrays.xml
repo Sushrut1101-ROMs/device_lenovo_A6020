@@ -15,16 +15,16 @@
      limitations under the License.
 -->
 <resources>
-    <array name="dt2w_entries">
+    <string-array name="dt2w_entries">
         <item>@string/dt2w_none</item>
         <item>@string/dt2w_half</item>
         <item>@string/dt2w_full</item>
-    </array>
-    <array name="dt2w_values">
+    </string-array>
+    <string-array name="dt2w_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </array>
+    </string-array>
 
     <!-- kcal -->
     <array name="preset_enteries">
