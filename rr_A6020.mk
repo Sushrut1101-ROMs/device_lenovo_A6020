@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 $(call inherit-product, device/lenovo/A6020/device.mk)
 
 # Inherit some common RROS stuff
-$(call inherit-product, vendor/rr/common.mk)
+$(call inherit-product, vendor/rr/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
