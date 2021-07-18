@@ -87,6 +87,9 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# GCamGOPrebuilt
+PRODUCT_PACKAGES += GCamGOPrebuilt
+    
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
