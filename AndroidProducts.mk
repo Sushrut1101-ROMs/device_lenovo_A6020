@@ -15,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_A6020.mk
+    $(LOCAL_DIR)/rr_A6020.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_A6020-eng \
-    aosp_A6020-user \
-    aosp_A6020-userdebug
+    rr_A6020-eng \
+    rr_A6020-user \
+    rr_A6020-userdebug
