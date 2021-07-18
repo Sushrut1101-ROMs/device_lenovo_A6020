@@ -89,6 +89,9 @@ PRODUCT_PACKAGES += \
 
 # GCamGOPrebuilt
 PRODUCT_PACKAGES += GCamGOPrebuilt
+
+# PixelPropsUtils
+PRODUCT_PACKAGES += PixelPropsUtils
     
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
