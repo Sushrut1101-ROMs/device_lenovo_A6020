@@ -10,5 +10,11 @@
     "repository":  "hsj51/vendor_lenovo_A6020",
     "target_path": "vendor/lenovo/A6020",
     "branch":      "10.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x",
+    "branch":      "master"
   }
 ]
