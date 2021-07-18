@@ -37,6 +37,9 @@ PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Vibe K5
 PRODUCT_MANUFACTURER := Lenovo
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 # Use Gapps
