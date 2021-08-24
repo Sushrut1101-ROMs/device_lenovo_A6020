@@ -87,9 +87,6 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
-# GCamGOPrebuilt
-PRODUCT_PACKAGES += GCamGOPrebuilt
-
 # PixelPropsUtils
 PRODUCT_PACKAGES += PixelPropsUtils
     
@@ -206,7 +203,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8916 \
     libbson \
-    Snap
+    Snap \
+    GCamGOPrebuilt
 
 # GPS
 PRODUCT_PACKAGES += \
