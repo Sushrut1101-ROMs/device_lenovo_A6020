@@ -24,6 +24,9 @@ $(call inherit-product, device/lenovo/A6020/device.mk)
 # Inherit some common RROS stuff
 $(call inherit-product, vendor/rr/config/common.mk)
 
+# Android GO
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
