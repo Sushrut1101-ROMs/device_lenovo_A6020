@@ -12,5 +12,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="rr_maintainer_title" translatable="false">Device Maintainer</string>
-    <string name="rr_maintainer_summary" translatable="false"> Sushrut Gupta ( @Sushrut1101 ) </string> 
+    <string name="rr_maintainer_summary" translatable="false">Sushrut Gupta ( @Sushrut1101 )</string> 
 </resources>
