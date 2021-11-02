@@ -188,7 +188,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 	/system/bin/mediaserver=23 \
-	/system/vendor/bin/mm-qcamera-daemon=23
+	/vendor/bin/mm-qcamera-daemon=23
 TARGET_USES_MEDIA_EXTENSIONS := true
 
 # Charger
@@ -254,8 +254,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
 
 # Shims
 TARGET_LD_SHIM_LIBS := \
-    /system/vendor/lib64/lib-imsdpl.so|libshims_boringssl.so \
-    /system/vendor/lib64/lib-imsvt.so|libshims_ims.so
+    /vendor/lib64/lib-imsdpl.so|libshims_boringssl.so \
+    /vendor/lib64/lib-imsvt.so|libshims_ims.so
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true

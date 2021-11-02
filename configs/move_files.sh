@@ -33,5 +33,5 @@ mv /system/system/etc/firmware/variant/$device/* /system/system/etc/firmware/
 rm -rf /system/system/etc/firmware/variant
 
 # Copy media configs
-mv /system/system/vendor/etc/media_codecs_$soc.xml /system/system/vendor/etc/media_codecs.xml
-mv /system/system/vendor/etc/media_codecs_performance_$soc.xml /system/system/vendor/etc/media_codecs_performance.xml
+mv /system/vendor/etc/media_codecs_$soc.xml /system/vendor/etc/media_codecs.xml
+mv /system/vendor/etc/media_codecs_performance_$soc.xml /system/vendor/etc/media_codecs_performance.xml
