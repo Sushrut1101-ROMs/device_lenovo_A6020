@@ -253,4 +253,14 @@
         </interface>
         <fqname>@1.0::IDms/default</fqname>
     </hal>
+    <hal format="hidl">
+	<name>android.hardware.configstore</name>
+	<transport>hwbinder</transport>
+	<version>1.0</version>
+	<interface>
+	    <name>ISurfaceFlingerConfigs</name>
+	    <instance>default</instance>
+	</interface>
+	<fqname>@1.0::ISurfaceFlingerConfigs/default</fqname>
+    </hal>
 </manifest>
